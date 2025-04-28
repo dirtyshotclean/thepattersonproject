@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Us - The Patterson Project Massacre</title>
+</head>
+<body bgcolor="black" text="lime" link="yellow" vlink="red" alink="white">
+  <center>
+    <h1><font face="Comic Sans MS" size="6">CONTACT US</font></h1>
+    <marquee behavior="scroll" direction="left" scrollamount="3"><b>HAVE INFO??? TELL US!!!</b></marquee>
+    <br>
+    <img src="phone.gif" alt="Phone" width="80">
+    <br><br>
+    <hr width="80%">
+
+    <p><center>In June 2022, a crew making a <b>found footage horror film</b> vanished while filming in Camp Nelson.
+    <br>
+    If you know anything about what happened, or if you saw something <b>strange</b>...
+    <br>
+    PLEASE email us!!</center></p>
+
+    <h2><font face="Courier New" color="red">EMAIL</font></h2>
+    <p><center><a href="mailto:pattersonmassacre@webmail.com">pattersonmassacre@webmail.com</a></center></p>
+
+    <h2><font face="Courier New" color="red">P.O. BOX</font></h2>
+    <p><center>The Patterson Project Team<br>PO Box 666<br>Camp Nelson, CA 93265</center></p>
+
+    <h2><font face="Courier New" color="red">HOTLINE</font></h2>
+    <p><center>1-844-PAT-PROJ<br><i>(Calls answered 9PM - 3AM ONLY)</i></center></p>
+
+    <br>
+    <img src="under_construction.gif" alt="Under Construction" width="100">
+    <br>
+    <a href="index.html"><b>BACK HOME</b></a> | <a href="evidence.html"><b>SEE EVIDENCE</b></a> | <a href="theories.html"><b>CRAZY THEORIES</b></a>
+
+    <hr width="80%">
+    <p><font size="2">The Patterson Project Massacre &copy; 2025</font></p>
+  </center>
+</body>
+</html>

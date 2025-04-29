@@ -1,30 +1,138 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>The Patterson Project Massacre</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Patterson Project Massacre</title>
+    <style>
+        body {
+            font-family: 'Courier New', monospace;
+            background-color: black;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        h1 {
+            font-size: 3em;
+            color: red;
+            text-transform: uppercase;
+        }
+
+        h2 {
+            font-size: 1.5em;
+            color: yellow;
+        }
+
+        .content {
+            padding: 20px;
+            margin: 20px;
+            border: 2px solid white;
+            background-color: #222;
+        }
+
+        .content p {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+
+        .media {
+            text-align: center;
+        }
+
+        .media img {
+            width: 80%;
+            max-width: 500px;
+            border: 3px solid white;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            font-size: 0.8em;
+            color: gray;
+        }
+
+        .highlight {
+            color: red;
+            font-weight: bold;
+        }
+
+        .fade {
+            opacity: 0.5;
+        }
+
+        /* Scrolling text styling */
+        .scrolling-text {
+            position: fixed;
+            bottom: 20px;
+            width: 100%;
+            background-color: black;
+            color: red;
+            font-size: 2em;
+            text-align: center;
+            padding: 10px 0;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+
+        .scrolling-text span {
+            display: inline-block;
+            animation: scroll-left 10s linear infinite;
+        }
+
+        @keyframes scroll-left {
+            from {
+                transform: translateX(100%);
+            }
+            to {
+                transform: translateX(-100%);
+            }
+        }
+    </style>
 </head>
-<body bgcolor="black" text="lime" link="yellow" vlink="red" alink="white">
-  <center>
-    <h1><font face=\"Comic Sans MS\" size=\"7\">THE PATTERSON PROJECT MASSACRE</font></h1>
-    <marquee behavior=\"scroll\" direction=\"left\" scrollamount=\"4\"><b>THEY WERE NEVER FOUND...</b></marquee>
-    <br>
-    <img src=\"missing_poster.jpg\" alt=\"Missing Poster\" width=\"300\">
-    <br><br>
-    <font face=\"Arial\" size=\"4\"><i>\"June 24th, 2022... They went into Camp Nelson. They never came back.\"</i></font>
-    <br><br>
-    <img src=\"under_construction.gif\" alt=\"Under Construction\" width=\"100\">
-    <hr width=\"80%\">
-    <h2><font face=\"Courier New\" color=\"red\">BACKSTORY</font></h2>
-    <p><center>The crew was filming a horror documentary... <b>Things went wrong!!!</b> Strange noises, weird shadows, then NOTHING.</center></p>
-    <h2><font color=\"red\">EVIDENCE??</font></h2>
-    <p><center>- Abandoned tents<br>- Crashed drones<br>- Scary tapes<br>- Blood stains...</center></p>\n
-    <h2><font color=\"red\">OFFICIAL STUFF</font></h2>
-    <p><center><i>\"No bodies. No suspects. Just fear.\"</i> - <b>Tulare County Sheriff</b></center></p>\n
-    <br>
-    <a href=\"evidence.html\"><b>SEE EVIDENCE</b></a> | <a href=\"theories.html\"><b>THEORIES</b></a> | <a href=\"contact.html\"><b>CONTACT US</b></a>
-    <hr width=\"80%\">
-    <img src=\"under_construction.gif\" alt=\"Under Construction\" width=\"100\">
-    <p><font size=\"2\">&copy; 2025 THE PATTERSON PROJECT!!!</font></p>
-  </center>
+<body>
+    <header>
+        <h1>The Patterson Project Massacre</h1>
+        <h2>An Unexplained Tragedy at Camp Nelson, California</h2>
+    </header>
+
+    <div class="content">
+        <h3>What Happened?</h3>
+        <p>On <span class="highlight">June 24, 2022</span>, a crew of filmmakers went missing while making a found footage horror film at a timeshare in Camp Nelson, CA. They were there to make a documentary about the unexplained events that had been reported in the area over the past decade. The crew’s final footage was recovered, but it left more questions than answers.</p>
+        
+        <p>Many believe that something supernatural was involved, while others suspect foul play. What is certain is that their footage revealed strange and terrifying encounters with an unknown force.</p>
+        
+        <div class="media">
+            <img src="images/crew.jpg" alt="Filmmakers' Crew">
+            <p><em>The last known image of the crew before they disappeared.</em></p>
+        </div>
+    </div>
+
+    <div class="content fade">
+        <h3>The Final Footage</h3>
+        <p>While the footage was recovered, much of it was corrupted. However, some disturbing fragments were found, showing the filmmakers terrified and running through the dense woods. Audio recordings suggest they were pursued by something unseen, something that could not be explained by traditional means.</p>
+        <p>We may never know what truly happened that day, but the footage, and the eerie silence that followed, will haunt those who dared to venture too close to Camp Nelson.</p>
+        
+        <div class="media">
+            <img src="images/footage.jpg" alt="Disturbing Final Footage">
+            <p><em>Disturbing stills from the last known footage.</em></p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 The Patterson Project Massacre - All rights reserved. The story continues...</p>
+    </footer>
+
+    <!-- Scrolling Text -->
+    <div class="scrolling-text">
+        <span>They were never found...</span>
+    </div>
+
 </body>
 </html>
